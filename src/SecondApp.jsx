@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 
-const App=()=>{
-  const API='https://jsonplaceholder.typicode.com/users';
+const SecondApp=()=>{
+  const API='https://apidojo-booking-v1.p.rapidapi.com/currency/get-exchange-rates?base_currency=USD&languagecode=en-us';
   const fetchUser=async (url)=>{
     try {
       const response = await fetch(url);
@@ -20,4 +20,4 @@ const App=()=>{
     </>
   );
 }
-export default App;
+export default SecondApp;
